@@ -1,0 +1,71 @@
+.indexpage{
+  background-color: #fae3ea;
+}
+.topnav{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content:space-between;
+}
+.left_topnav{
+left: 1px;
+}
+.left_topnav p{
+  /* font-size: 30px; */
+
+}
+.right_topnav{
+  /* right: 1px; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn_landing{
+  border: none;
+  background-color: transparent;
+  font-size: 17px;
+  color: #4c4343;
+}
+.add_link{
+  text-decoration: none;
+  color: #4c4343;
+}
+.landing_body{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  height: 600px;
+}.landing_body-left{
+  position: absolute;
+}
+.intro-sec{
+  padding-left: 30px;
+width: 13ch;
+font-size: 130px;
+background-color: transparent;
+}
+.landing_body--right{
+  background-image: url(../assets/img/girl-7570743_1920.jpg);
+  background-size: cover;
+  /* background-position: center center; */
+  background-repeat: no-repeat;
+}
+.btn-body
+{
+  color: white;
+  background-color: #111;
+  padding: 15px;
+  font-weight: bold;
+  border: none;
+  width: 20rem;
+  border-radius: 25px;
+
+}
+.sm-intro-sec{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#btn-body__partner{
+  background-color: #f7f2f2;
+  color: black;
+  border: 1px solid black;
+}

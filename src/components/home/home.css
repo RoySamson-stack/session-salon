@@ -1,0 +1,36 @@
+.home-nav{
+display:  flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+.search-input{
+  padding: 10px;
+  width: 50ch;
+  border-radius: 25px;
+}
+.search_btn{
+  padding: 10px;
+  border-radius: 25px;
+}
+.line-1{
+  height: 2px;
+  background-color: black;
+  margin-right: 20px;
+  margin-left:20px;
+}
+.home-body{
+  display:flex;
+}
+.grid-title{
+  left:3px;
+  padding: 30px;
+}
+.salon-grid{
+  margin-left: 1px;
+  width: 100vw;
+  height: 500px;
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: 600px 600px 600px;
+}
